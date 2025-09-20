@@ -8,3 +8,10 @@
 *.sh text eol=lf
 
 /playground export-ignore
+
+requirements-gui.txt merge=ours
+Run waifu2x GUI (NVIDIA).sh merge=ours
+mise.toml merge=ours
+.gitattributes merge=ours
+README.md merge=ours
+.github/workflows/sync-upstream.yml merge=ours
