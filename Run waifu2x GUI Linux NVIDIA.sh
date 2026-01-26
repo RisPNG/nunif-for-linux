@@ -1,8 +1,9 @@
 #!/bin/bash
 # requires libtiff5 or libtiff6
 
-# Change to the directory where this script is located
-cd "$(dirname "$0")"
+# Change to the directory where this script is located (handles sourcing and symlinks)
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
+cd "$SCRIPT_DIR"
 
 if [ ! -d ~/.venvs/nunif ]; then
     echo "Creating virtual environment 'nunif'..."
