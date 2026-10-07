@@ -1,3 +1,12 @@
+## About this fork
+
+This is a fork of [nunif](https://github.com/nagadomi/nunif). In order to run this, make sure you have `libtiff5` or `libtiff6` installed. On Debian 12 (Bookworm) and 13 (Trixie), you can install it with `sudo apt install libtiff-dev`.
+
+To run, add the execute permission (`sudo chmod +x "Run waifu2x GUI Linux NVIDIA.sh"` on most linux) to the script "Run waifu2x GUI Linux NVIDIA.sh", and execute it.
+When running it for the first time, make sure Python 3.10 is active so the initial setup can create a Python 3.10 virtual environment.
+
+## Original README.md
+
 My playground.
 
 For the time being, I will make incompatible changes.
